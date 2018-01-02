@@ -1,8 +1,0 @@
-#!/bin/bash
-
-cd /var/www/daily
-
-today=$(date)
-
-echo $today >> daily.log
-
